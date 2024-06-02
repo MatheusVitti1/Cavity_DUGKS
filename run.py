@@ -4,6 +4,8 @@ import re
 import numpy as np
 import math
 
+os.system('touch simulation.foam')
+
 f = open("constant/DVMProperties", "r")
 lines = f.readlines()
 R_line = lines[26]
