@@ -26,7 +26,7 @@ print("MPS = {}".format(MPS(T,R)))
 
 #Escrevendo Xis e Weights:
 n = 28
-os.system('python ../../applications/dugksFoam/src/scripts/setDV.py GH {} {}'.format(MPS(T,R),n))
+os.system('python ~/OpenFOAM/vitti-6/applications/dugksFoam/src/scripts/setDV.py GH {} {}'.format(MPS(T,R),n))
 
 #Criando a malha:
 
